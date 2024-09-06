@@ -1,0 +1,372 @@
+* {
+    background-color: #090D0E;
+    color: white;
+    font-family: poppins;
+}
+
+body {
+    background-color: #090D0E;
+    position: relative;
+    height: 100%;
+}
+
+/* SESSÃO 01 - CONHEÇA O ARTE E MANHA */
+
+.section-03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 150px;
+    gap: 100px;
+}
+
+.main-content {
+    margin: 0;
+}
+
+.home-container .titleConheca {
+    font-size: 40px;
+    font-weight: 400;
+    background-color: transparent;
+    margin: 0;
+}
+
+.home-container .titleArteManha {
+    font-size: 55px;
+    font-weight: 700;
+    margin: -20px 0 0 0;
+    background-color: transparent;
+    color: #D62625;
+
+}
+
+.home-container .description {
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 50px;
+
+}
+
+.home-container .btnSocial {
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+}
+
+.home-container .btnSocial .link {
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.home-container .btnSocial .btnInstagram {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #D62625;
+    padding-right: 15px;
+    border: #D62625 1px solid;
+}
+
+.home-container .btnSocial .btnInstagram:hover {
+    background-color: transparent;
+    border: #D62625 1px solid;
+    transition: 0.3s;
+}
+
+.home-container .btnSocial .btnYoutube {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: transparent;
+    padding-right: 15px;
+    border: #D62625 1px solid;
+}
+
+.home-container .btnSocial .btnYoutube:hover {
+    background-color: #D62625;
+    border: #D62625 1px solid;
+    transition: 0.3s;
+}
+
+.home-container .btnSocial .link .logoInstagram {
+    width: 45px;
+    background-color: transparent;
+}
+
+.home-container .btnSocial .link .logoYoutube {
+    width: 45px;
+    background-color: transparent;
+}
+
+.imgComposition img {
+    background-color: transparent;
+    right: 5%;
+    top: 0%;
+    max-width: 700px;
+}
+
+/* SESSÃO 03 - INTEGRANTES */
+
+/* TENTATIVA 01 
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 110px;
+    width: 100%;
+    background-color: #818181;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.slide-container .integrantes-title {
+    background-color: transparent;
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+    
+    
+}
+
+.cards {
+    margin-top: -25px;
+    width: 100%;
+    background-color: #D62625;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.member-card {
+    display: flex;
+    background-color: #e9ddcb;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+}
+
+.member-card img {
+    width: 75%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.member-card .center-objects {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10;
+    background-color: transparent;
+}
+
+.member-card .center-objects .member-name {
+    background-color: transparent;
+    color: #D62625;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.member-card .center-objects .member-joined {
+    background-color: transparent;
+    color: #6d6d6d;
+    font-size: 0.9rem;
+    margin: -5px 0 0 0;
+}
+
+.member-card .member-description {
+    background-color: transparent;
+    text-align: justify;
+    color: #090D0E;
+}
+
+.member-social-media {
+    display: flex;
+    justify-content: left;
+    background-color: transparent;
+    gap: 20px;
+}
+
+.member-social-media .btn-icon {
+    background-color: transparent;
+}
+
+.member-social-media .icon {
+    width: 30px;
+    background-color: #D62625;
+    border-radius: 50%;
+}
+
+.member-social-media .icon:hover {
+    background-color: #8d0505;
+    transition: 0.4s;
+}
+
+
+.btn-next,
+.btn-prev {
+    background-color: transparent;
+    color: #D62625;
+}
+
+.btn-next:hover,
+.btn-prev:hover {
+    color: #8d0505;
+    transition: 0.4s;
+}
+
+.pagination {
+    background-color: transparent;
+}
+
+.swiper-pagination-bullet {
+    background-color: #D62625;
+}
+*/
+
+/*=============== CARD ===============*/
+
+* {
+    background-color: transparent;
+}
+.container {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding: 0 121px;
+}
+
+.card-container {
+    padding-bottom: 1.5rem;
+    background-color: transparent;
+}
+
+.card-container .title-members {
+    margin: 0 28px;
+    font-size: 25px;
+    h1 {
+        color: #D62625;
+        margin: 2rem 0 1rem 0;
+    }
+    
+}
+
+.card-content {
+    background-color: transparent;
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: antiquewhite;
+    border-radius: 1.25rem;
+}
+
+.card-img {
+    background-color: transparent;
+    padding: 10px;
+    width: 225px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.card-name {
+    text-align: center;
+    margin: 0;
+    color: #D62625;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+.card-description {
+    margin: 0;
+    background-color: transparent;
+    color: #090D0E;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.social-medias {
+    display: flex;
+    
+    gap: 10px;
+    padding: 0px 10px 10px 10px;
+    background-color: transparent;
+}
+
+.social-medias .btn-icon {
+    display: flex;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.social-medias .icon {
+    background-color: #D62625;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.social-medias .icon:hover {
+    background-color: #b10101;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: initial;
+    height: initial;
+    font-size: 3rem;
+    color: var(--second-color);
+    display: none;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: hsl(212, 32%, 40%);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--second-color);
+}
